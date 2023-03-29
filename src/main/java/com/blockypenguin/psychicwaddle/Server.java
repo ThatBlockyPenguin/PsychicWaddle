@@ -1,4 +1,4 @@
-package com.blockypenguin.telnet;
+package com.blockypenguin.psychicwaddle;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +9,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Telnet {
+public class Server {
 	private static final String CHARSET = "UTF-8";
 	
 	public static void main(String[] args) {
