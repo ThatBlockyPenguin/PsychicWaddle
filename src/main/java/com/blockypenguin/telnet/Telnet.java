@@ -9,7 +9,7 @@ import java.net.Socket;
 public class Telnet {
 	public static void main(String[] args) {
 		String url = "localhost";
-		int port = 8080;
+		int port = 23;
 
 		try(Socket pingSocket = new Socket(url, port)) { // Open new socket
 			try(
